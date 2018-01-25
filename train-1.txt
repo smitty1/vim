@@ -1,0 +1,2 @@
+First file in this repository. I created this directly on github using Firefox 58.0 on Windows 10.
+The objective is to use this directory as a learning tool for git, vim, and github. Contributing to it from all Linux disto's, SolydX, SolydK, and Linux Mint 18.3, on my laptop. Also I hope to use Both Windows 10 and my VirtualBox vm's that are hosted on the Windows 10 Desktop.
