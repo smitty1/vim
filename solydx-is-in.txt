@@ -1,0 +1,3 @@
+Added this file form solydx.
+Since the directory is the same as from SolydK where I started, there was not init, clone, etc.
+
