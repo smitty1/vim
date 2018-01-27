@@ -1,0 +1,11 @@
+To have vim display line numbering:
+In command mode 
+	:set number
+or
+	:set nu
+
+Toturn off the line numbering 
+	:set nonumber
+or
+	:set nonu
+
