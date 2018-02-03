@@ -1,0 +1,20 @@
+Conventions
+<i> means to press the i key
+<c-i> means to press the contriol & i keys together
+<a-i> means to pressthe alt & i keys together.
+
+Switch to command (normal) mode: <esc> or <c-[>.
+
+Move to the beginning of the file <gg>. 
+Move to end of the file <shift g> or <s-g> or <G>.
+
+Move forward to the end of a word <e>. 
+Move forward to the end of a white space delimited word <E>. 
+Move forward to the beginning of the next word <w>. 
+Move backward to the beginning of the next word <b>. 
+
+Move to the first non-whitespace character on a line <^>. 
+Move to the beginning of the line even if it is a whitespace <0> (zero). 
+Move to the end of the line even if it is whitespace <$>.
+ 
+

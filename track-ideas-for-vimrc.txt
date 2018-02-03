@@ -1,0 +1,9 @@
+Changes made to the vim editor
+we can set these in .vimrc and then copy them to all Linux distro's
+
+Edited SolydK's .vimrc file as follows:
+	syntax highlighting=on
+	background=dark
+	Jump to the last position when opened. (Requires plugin I think.)
+	Load indentation rules and plugins for the type of file detected.
+	
