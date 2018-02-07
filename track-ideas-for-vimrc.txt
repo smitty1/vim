@@ -2,8 +2,11 @@ Changes made to the vim editor
 we can set these in .vimrc and then copy them to all Linux distro's
 
 Edited SolydK's .vimrc file as follows:
-	syntax highlighting=on
+	sntax highlighting=on
 	background=dark
 	Jump to the last position when opened. (Requires plugin I think.)
 	Load indentation rules and plugins for the type of file detected.
-	
+	set number
+	colorscheme slate
+syntax, number, and colorscheme have been added	to the .vimrc.
+.vimrc, .bashrc, .absh_aliases, and .bash_functions added to my git/vim repository. This way should be better than trying to use Dropbox for keeping all my files synchronized
