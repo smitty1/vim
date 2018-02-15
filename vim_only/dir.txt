@@ -1,8 +1,0 @@
-total 17K
-drwxrwxrwx 1 jim jim 4.0K Feb 15 10:04 ./
-drwxrwxrwx 1 jim jim 4.0K Feb 14 10:02 ../
--rwxrwxrwx 1 jim jim  122 Feb 14 11:33 change-terminal-open.txt*
--rwxrwxrwx 1 jim jim  955 Feb 15 10:00 commands_vim.txt*
--rwxrwxrwx 1 jim jim    0 Feb 15 10:04 dir.txt*
--rwxrwxrwx 1 jim jim  583 Feb  7 17:24 track-ideas-for-vimrc.txt*
--rwxrwxrwx 1 jim jim  140 Jan 27 16:45 vim-line-nummbering.txt*
