@@ -133,12 +133,11 @@ pins() {
 	fi
 }
 
-du() {
-	if [ -f ~/.bash_functions ]; then
-		terminator -e 'sh -c "sudo apt update && sudo apt dist-upgrade; exec bash"'
-	else
-		echo "shit"
-       fi
-}
+#Sort the body of output, while leaving the header on line 1 intact
 
+body() {
+  IFS= read -r header
+  printf '%s\n' "$header"
+  "$@"
+}
 
