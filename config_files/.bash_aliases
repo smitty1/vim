@@ -27,7 +27,7 @@ alias out='sudo apt-get purge'
 alias pol='apt-cache policy'
 alias show='apt show'
 alias sym='apt-get purge -s'
-alias up='sudo dnf update'
+alias up='sudo apt update && sudo apt dist-upgrade'
 alias ar='sudo apt-get autoremove'
 
 #User based aliases
@@ -60,10 +60,6 @@ alias dir="ls -lahF"
 #apt options
 
 
-#Pcman Aliases
-
-#Upgrade Arch or Manjaro
-	alias pup='sudo yaourt -Syyua'
 alias df='df -h'
 alias nt='cat /home/jim/.notes /home/jim/.todo'
 alias clnt='echo  > .notes && echo  > .todo'
@@ -82,4 +78,6 @@ alias upd='sudo apt update'
 alias upg='sudo apt upgrade'
 alias qup='upd; upg; ar; boot'
 
+#Display the 9 processes using the most memory
 alias memuse='sudo ps -eo pid,ppid,cmd,%mem --sort=%mem | head'
+
