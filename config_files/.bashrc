@@ -147,4 +147,5 @@ echo  "$(date)"
 
 #Ignore signore simple spelling mistakes in the cd command.
 shopt -s cdspell
+cd ~/git-vim/vim_only
 
