@@ -1,7 +1,7 @@
 alias clean='sudo apt autoremove && sudo apt autoclean'
-alias Src='source /home/jim/.bashrc'
-#alias inxi='inxi -Fc10' # Light Background
-alias inxi='inxi -Fxxxrc27' #For the medium gray background
+alias src='source /home/jim/.bashrc'
+#alias inxi='sudo inxi -v 7 -c 10' # Light Background
+alias inxi='sudo inxi -v 7 -c 27' #For the medium gray background
 alias o='less'
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -27,7 +27,7 @@ alias out='sudo apt-get purge'
 alias pol='apt-cache policy'
 alias show='apt show'
 alias sym='apt-get purge -s'
-alias up='sudo apt-get update && sudo apt-get dist-upgrade'
+alias up='sudo dnf update'
 alias ar='sudo apt-get autoremove'
 
 #User based aliases
@@ -54,9 +54,9 @@ alias boot='sudo shutdown -r now'
 alias off='sudo shutdown -Ph now'
 
 #Directory Options
-alias l='ls --group-directories-first -lhAF'
-alias la='ls -A'
-alias dir="ls -lAhF"
+alias l='ls --group-directories-first -lhaF'
+alias la='ls -a'
+alias dir="ls -lahF"
 #apt options
 
 
@@ -82,5 +82,4 @@ alias upd='sudo apt update'
 alias upg='sudo apt upgrade'
 alias qup='upd; upg; ar; boot'
 
-alias src='source /home/jim/.bashrc'
-alias byo='Billion Years Ago'
+alias memuse='sudo ps -eo pid,ppid,cmd,%mem --sort=%mem | head'
