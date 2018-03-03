@@ -1,0 +1,4 @@
+On Feb 14 2017
+I added the following line to ~/.bashrc to make terminator open in this directory.
+	cd ~/vim-git/vim_only
+

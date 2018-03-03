@@ -21,3 +21,11 @@ Move to the beginning of the line even if it is a whitespace <0> (zero).
 Move to the end of the line even if it is whitespace <$>.
  
 
+Open a new line blow the cursor and switch to insert mode "o"
+Open a New line Above  the cursor and switch to insert mode "O"
+
+Open a file to a specified line N "vim +N <file-name>
+
+Chaange one word to another throughout a file ":%s/<original-word>/<replacement-word>/g" (Works just like sed"
+	example:: :%s/jim/root/g will find each occurrence of "jjim" & replace it with "root"
+
