@@ -1,0 +1,12 @@
+To fix the error "cannot set locale LC-ALL no such file.
+
+    cat /etc/default/locale  #Uncomment en_US.UTF-8
+  less /etc/locale.gen  #ensure that the locale is not commented
+  sudo locale-gen	#May Take a while
+sudo locale-gen "en_US.UTF-8"	#May Take a while
+  sudo dpkg-reconfigure locales	#May Take a while
+
+
+
+
+
