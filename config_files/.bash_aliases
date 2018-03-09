@@ -81,3 +81,4 @@ alias qup='upd; upg; ar; boot'
 #Display the 9 processes using the most memory
 alias memuse='sudo ps -eo pid,ppid,cmd,%mem --sort=%mem | head'
 
+alias gs='git status'
