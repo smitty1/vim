@@ -18,3 +18,5 @@ imap <F3> #strftime('%F')
 map <F4> :wq<CR>
 map <F5> :q!<CR>
 iab me #Written by Jim Smith
+
+
