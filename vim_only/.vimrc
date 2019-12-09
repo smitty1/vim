@@ -10,6 +10,9 @@ set showmatch
 set hlsearch
 set incsearch
 set ignorecase
+
+colorscheme <murphy> 
+
 iab ms Microsoft
 iab cli command line
 
