@@ -11,7 +11,7 @@ set hlsearch
 set incsearch
 set ignorecase
 
-colorscheme <murphy> 
+colorscheme murphy 
 
 iab ms Microsoft
 iab cli command line
