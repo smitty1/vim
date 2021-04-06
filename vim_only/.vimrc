@@ -1,6 +1,7 @@
+set nocompatible
 set wildmenu
 set number    
-set syntax
+ syntax on
 set autoindent
 set smartindent
 set tabstop=4
@@ -11,7 +12,7 @@ set hlsearch
 set incsearch
 set ignorecase
 
-colorscheme murphy 
+colorscheme torte 
 
 iab ms Microsoft
 iab cli command line
